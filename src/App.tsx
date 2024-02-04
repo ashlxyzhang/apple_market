@@ -1,7 +1,11 @@
-import "./App.css";
+import "./index.css";
 
 function App() {
-  return <>Hello</>;
+  return (
+    <>
+      <p className="flex justify-center">Hello!</p>
+    </>
+  );
 }
 
 export default App;
